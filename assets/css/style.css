@@ -43,6 +43,16 @@ a, a:hover {
 	color: #aeb002;
 }
 
+ul {
+	margin: 2px 0 22px 17px;
+}
+
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.5em;
+}
+
 .header {
 	background-color: darkslateblue;
 	height: 177px;
@@ -67,7 +77,7 @@ a, a:hover {
 	margin: 0 0 0 9px;
 }
 
-.logo_text h1, .logo_text h2 {
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
 	padding: 22px 0 0 0;
 	color: #fff;
 	letter-spacing: 0.1em;
@@ -80,9 +90,9 @@ a, a:hover {
 	color: #999;
 }
 
-.menunar {
+.menubar {
 	width: 900px;
-	height: 46px;
+	height: 46px
 }
 
 ul.menu {
@@ -149,4 +159,17 @@ ul.menu li a:hover {
 	font-size: 0.7em;
 	margin-top: 3%;
 	margin-left: 2%;
+}
+
+.sidebar ul {
+	margin: 0;
+}
+
+.sidebar ul li {
+	list-style-type: none;
+	margin: 0 0 0 0;
+}
+
+.sidebar .rating_sidebar {
+	float: right;
 }
